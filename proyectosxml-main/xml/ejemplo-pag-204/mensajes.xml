@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensajes xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+ xs:noNamespaceSchemaLocation="mensajes.xsd">
+<de>johan</de>
+<para>sisa</para>
+<mensaje>me la pela</mensaje>
+
+</mensajes>

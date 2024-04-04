@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        div {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- en los formularios son muy importates los atributos-->
+    <form action="index.html" method="get" id="mi-formulario">
+        <div>
+            <label for="cuadro-de-texto">nombre</label>
+            <input type="text" name="nombre" id="cuadro-de-texto" placeholder="Escribe tu nombre" />
+        </div>
+
+        <div>
+            <h2>Radio buttons: solo se puede seleccionar una de las opciones</h2>
+            <p>¿cual es tu leguajes wed favotio?</p>
+            <input type="radio" name="lenguaje" id="html" value="html"><label for="html">HTML5</label>
+            <input type="radio" name="lenguaje" id="css" value="css"><label for="css">CSS3</label>
+            <input type="radio" name="lenguaje" id="js" value="JavaScript"><label for="js">JavaScript</label>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar" />
+        </div>
+    </form>
+
+    <div id="resultado">
+        <p id="nombre-valor"></p>
+        <p id="lenguaje-valor"></p>
+    </div>
+    <script> document.getElementById("mi-formulario").addEventListener("submit", function (event) { event.preventDefault(); 
+        const formulario = event.target; 
+        const nombre = formulario.elements["nombre"].value; 
+        const leguaje = formulario.elements ["lenguaje"].value;
+        
+        document.getElementById("nombre-valor").textContent = "Nombre: " + nombre; 
+        document.getElementById("lenguaje-valor").textContent = "lenguajes seleccionado: " + leguaje
+        }); </script>
+
+
+
+
+
+</body>
+
+</html>

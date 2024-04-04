@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediosDeTransporte>
+   <medio>
+    <nombre>Bicicleta</nombre>
+    <velocidad>v&lt;100km/k</velocidad>
+   </medio> 
+   <medio>
+     <nombre>Patinete</nombre>
+     <velocidad_maxima>50 km/h</velocidad_maxima>
+   </medio>
+</mediosDeTransporte>

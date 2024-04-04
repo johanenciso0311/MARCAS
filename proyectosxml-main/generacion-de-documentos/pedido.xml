@@ -1,0 +1,21 @@
+<pedido>
+    <cliente>
+        <nombre>Juan</nombre>
+        <apellidos>Tragaldabas</apellidos>
+        <direccion>Avenida de Irun s/n</direccion>
+        <localidad>San Fernando de Henares</localidad>
+        <cp>28830</cp>
+    </cliente>
+    <producto cantidad="2">
+        <nombre>McPato</nombre>
+        <precio>4</precio>
+    </producto>
+    <producto cantidad="3">
+        <nombre>PocaCola</nombre>
+        <precio>2</precio>
+    </producto>
+    <producto cantidad="5">
+        <nombre>Brownie</nombre>
+        <precio>1.7</precio>
+    </producto>
+</pedido>

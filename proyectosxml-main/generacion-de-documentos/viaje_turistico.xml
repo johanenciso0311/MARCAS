@@ -1,0 +1,26 @@
+<viaje_turistico>
+    <cliente>
+        <nombre>Curro</nombre>
+        <apellido1>Jimenez</apellido1>
+        <apellido2></apellido2>
+    </cliente>
+    <fecha_inicio>02/02/2024</fecha_inicio>
+    <fecha_fin>30/06/2024</fecha_fin>
+    <origen>Madrid</origen>
+    <destino>
+        <ciudad>Londres</ciudad>
+        <hotel>Marriott</hotel>
+        <noches>30</noches>
+    </destino>
+    <destino>
+        <ciudad>Roma</ciudad>
+        <hotel>Coliseo</hotel>
+        <noches>30</noches>
+    </destino> 
+    <destino>
+        <ciudad>Bahamas</ciudad>
+        <hotel>Playa y Sol</hotel>
+        <noches>60</noches>
+    </destino> 
+    <precio>5000</precio> 
+</viaje_turistico>
