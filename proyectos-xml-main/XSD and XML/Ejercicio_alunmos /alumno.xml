@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos dni="1234568A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alumno.xsd" >
+<nombre> johan </nombre>
+<direccion>
+    <calle>mejico </calle>
+    <numero>23</numero>
+    <ciudad>madrid</ciudad>
+    <provincia>madrid</provincia>
+</direccion>
+<telefono>9234342442</telefono>
+<telefono>6222222442</telefono>
+</alumnos>

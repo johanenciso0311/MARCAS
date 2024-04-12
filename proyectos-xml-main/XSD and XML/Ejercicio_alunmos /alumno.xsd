@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:element name="alumno">
+       <xs:complextype>
+         <xs:sequence>
+            
+         </xs:sequence>
+        </xs:complextype>
+    </xs:element>  
+</xs:schema>
